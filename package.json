@@ -1,0 +1,28 @@
+{
+  "name": "xhr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xhr",
+    "ajax"
+  ],
+  "author": "woohs",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0"
+  },
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}
