@@ -1,1 +1,1 @@
-export declare const Greeter: (name: string) => string;
+export declare function ajaxPost(url: string, data: Record<string, any>, type?: string): Promise<any>;
